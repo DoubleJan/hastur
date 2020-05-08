@@ -13,10 +13,7 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "registry": "http://registry.npmjs.org/",
-    "access": "public"
-  },
+  "publishConfig": { "access": "public" },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DoubleJan/hastur.git"
