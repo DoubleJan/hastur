@@ -14,7 +14,8 @@
     "lib"
   ],
   "publishConfig": {
-    "access": "public"
+    "registry": "http://registry.npmjs.org/",
+    "access": "public"
   },
   "repository": {
     "type": "git",

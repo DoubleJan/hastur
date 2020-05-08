@@ -1,6 +1,15 @@
 {
   "name": "hastur-root",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "bin": {
+    "hastur": "./packages/hastur/bin/hastur.js"
+  },
+  "scripts": {
+    "start": "node ./packages/cli/bin/hastur"
+  },
   "devDependencies": {
     "lerna": "^3.20.2"
   }

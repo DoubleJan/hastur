@@ -1,2 +1,8 @@
 # 忽略依赖
+
 node_modules
+
+# 忽略报错日志文件
+
+lerna-debug.log
+yarn-error.log
