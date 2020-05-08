@@ -1,6 +1,6 @@
 # `@hastur/utils`
 
-> TODO: description
+> haster工具库
 
 ## Usage
 
