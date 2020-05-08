@@ -1,6 +1,6 @@
 {
   "name": "@hastur/utils",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.0",
   "description": "> TODO: description",
   "author": "DoubleJan <954464727@qq.com>",
   "homepage": "https://github.com/DoubleJan/hastur#readme",
@@ -10,8 +10,13 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "files": ["lib", "utils.js"],
-  "publishConfig": { "access": "public" },
+  "files": [
+    "lib",
+    "utils.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DoubleJan/hastur.git"
