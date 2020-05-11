@@ -7,11 +7,11 @@
       "hoist": true
     }
   },
-  "version": {
-    "conventionalCommits": true
-  },
-  "ignoreChanges": ["CHANGELOG.md", "*.lock"],
+  "version": "0.0.3-alpha.0",
+  "ignoreChanges": [
+    "CHANGELOG.md",
+    "*.lock"
+  ],
   "npmClient": "yarn",
-  "useWorkspaces": true,
-  "version": "0.0.2-alpha.0"
+  "useWorkspaces": true
 }
