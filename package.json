@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node ./packages/cli/bin/hastur",
-    "commit": "git-cz"
+    "commit": "git add . && git-cz"
   },
   "config": {
     "commitizen": {
