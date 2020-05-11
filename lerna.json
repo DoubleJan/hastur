@@ -5,13 +5,14 @@
   "command": {
     "bootstrap": {
       "hoist": true
+    },
+    "publish": {
+      "allowBranch": "master", 
+      "conventionalCommits": true,
+      "ignoreChanges": ["CHANGELOG.md", "*.lock"]
     }
   },
   "version": "0.0.4-alpha.0",
-  "ignoreChanges": [
-    "CHANGELOG.md",
-    "*.lock"
-  ],
   "npmClient": "yarn",
   "useWorkspaces": true
 }
